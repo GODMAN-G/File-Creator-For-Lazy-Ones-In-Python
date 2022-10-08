@@ -1,0 +1,10 @@
+#for the super lazy ones who can create files
+
+filename=input("Enter File Name(file you want to create): ")
+num_of_times=(int(input("enter number of lines you want to type: ")))
+num_of_lines=num_of_times
+for num_of_lines in range(num_of_times):
+    f=open(filename,"a")
+    f.write(input("Enter what you want to write: " +'\n'))
+
+##big_puppy
